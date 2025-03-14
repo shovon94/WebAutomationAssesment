@@ -1,0 +1,19 @@
+2025-03-15 02:53:35 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 02:53:36 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 02:53:36 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 02:53:45 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 02:53:46 - Browser closed and WebDriver session ended.
+2025-03-15 02:58:57 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 02:58:58 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 02:58:58 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 02:59:53 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 02:59:54 - Starting testLogin with username: invalid@email.com
+2025-03-15 02:59:56 - Login failed for username: invalid@email.com. Error: Error
+Invalid Username or Password
+2025-03-15 02:59:56 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 02:59:57 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 02:59:58 - Browser closed and WebDriver session ended.
