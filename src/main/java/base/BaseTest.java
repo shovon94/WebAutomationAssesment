@@ -3,32 +3,46 @@ package base;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import utils.ConfigReader;
 import java.time.Duration;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class BaseTest {
-    protected WebDriver driver;
+public class BaseTest
+{
+    protected static WebDriver driver;
+    private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
 
-    @BeforeMethod
-    public void setup() {
-        // Automatically download and setup ChromeDriver
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-
-        // Maximize window and set timeouts
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-        //Open the website
-        //driver.get(ConfigReader.getProperty("baseURL"));
+    @BeforeSuite
+    public void setup()
+    {
+        if (driver == null)
+        {  // Initialize driver only if it's null
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            driver.get(ConfigReader.getProperty("baseURL")); // Open website only once
+            logger.info("WebDriver initialized, browser maximized and website is launched!");
+        }
     }
 
-    @AfterMethod
-    public void teardown() {
-        if (driver != null) {
+    @AfterSuite
+    public void teardown()
+    {
+
+        if (driver != null)
+        {
             driver.quit();
+            logger.info("Browser closed and WebDriver session ended.");
+            driver = null;
         }
+
+    }
+
+    public WebDriver getDriver() {
+        return driver;  // Return the WebDriver instance
     }
 }
