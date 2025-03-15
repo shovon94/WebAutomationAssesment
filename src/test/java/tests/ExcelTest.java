@@ -9,7 +9,7 @@ public class ExcelTest {
 
     @Test
     public void testExcelReading() {
-        String filePath = "src/test/resources/testData/TestData.xlsx";  // Path to Excel file
+        String filePath = "src/test/resources/testData/TestData_v2.xlsx";  // Path to Excel file
         ExcelReader excelReader = new ExcelReader(filePath);
         List<List<String>> data = excelReader.readExcelData("LoginData");
 
