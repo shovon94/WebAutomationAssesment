@@ -144,3 +144,146 @@ Invalid Username or Password
 2025-03-15 07:18:31 - Starting testLogin with username: automate.cheq@yopmail.com
 2025-03-15 07:18:33 - Login successful for username: automate.cheq@yopmail.com
 2025-03-15 07:18:33 - Browser closed and WebDriver session ended.
+2025-03-15 07:24:51 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 07:24:52 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 07:24:52 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 07:24:59 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 07:29:35 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 07:29:36 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 07:29:36 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 07:32:20 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 07:32:21 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 07:32:21 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 07:32:28 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 07:32:30 - Starting testLogin with username: invalid@email.com
+2025-03-15 07:32:41 - Login failed for username: invalid@email.com. Error: No error message displayed
+2025-03-15 07:32:41 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 07:32:43 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 07:32:44 - Browser closed and WebDriver session ended.
+2025-03-15 07:39:03 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 07:39:04 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 07:39:04 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 07:39:10 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 07:39:11 - Starting testLogin with username: invalid@email.com
+2025-03-15 07:39:23 - Login failed for username: invalid@email.com. Error: No error message displayed
+2025-03-15 07:39:23 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 07:39:25 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 07:39:25 - Browser closed and WebDriver session ended.
+2025-03-15 07:48:38 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 07:48:38 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 07:48:38 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 07:48:43 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 07:48:44 - Starting testLogin with username: invalid@email.com
+2025-03-15 07:48:56 - Login failed for username: invalid@email.com. Error: No error message displayed
+2025-03-15 07:48:56 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 07:48:58 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 07:49:01 - Browser closed and WebDriver session ended.
+2025-03-15 07:55:56 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 07:55:57 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 07:55:57 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 07:56:03 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 07:56:04 - Starting testLogin with username: invalid@email.com
+2025-03-15 07:56:16 - Login failed for username: invalid@email.com
+2025-03-15 07:56:16 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 07:56:18 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 07:56:19 - Browser closed and WebDriver session ended.
+2025-03-15 08:01:16 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:01:16 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:01:16 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:01:22 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:01:23 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:01:34 - Login failed for username: invalid@email.com
+2025-03-15 08:01:35 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:01:37 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:01:37 - Browser closed and WebDriver session ended.
+2025-03-15 08:04:11 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:04:11 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:04:11 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:04:19 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:04:20 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:04:30 - Login failed for username: invalid@email.com
+2025-03-15 08:04:30 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:04:32 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:04:33 - Browser closed and WebDriver session ended.
+2025-03-15 08:06:47 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:06:47 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:06:47 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:06:55 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:06:56 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:07:06 - Login failed for username: invalid@email.com
+2025-03-15 08:07:06 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:07:08 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:07:09 - Browser closed and WebDriver session ended.
+2025-03-15 08:20:32 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:20:33 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:20:33 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:21:03 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:21:03 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:21:14 - Login failed for username: invalid@email.com
+2025-03-15 08:21:14 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:21:16 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:21:16 - Browser closed and WebDriver session ended.
+2025-03-15 08:28:51 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:28:52 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:28:52 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:29:22 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:29:23 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:29:33 - Login failed for username: invalid@email.com
+2025-03-15 08:29:33 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:29:35 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:29:36 - Browser closed and WebDriver session ended.
+2025-03-15 08:31:44 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:31:45 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:31:45 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:32:13 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:32:14 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:32:24 - Login failed for username: invalid@email.com
+2025-03-15 08:32:24 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:32:27 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:32:27 - Browser closed and WebDriver session ended.
+2025-03-15 08:34:34 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:34:35 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:34:35 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:35:01 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:35:02 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:35:12 - Login failed for username: invalid@email.com
+2025-03-15 08:35:12 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:35:14 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:35:15 - Browser closed and WebDriver session ended.
+2025-03-15 08:42:24 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-15 08:42:25 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 08:42:25 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 08:42:38 - WebDriver initialized, browser maximized and website is launched!
+2025-03-15 08:42:39 - Starting testLogin with username: invalid@email.com
+2025-03-15 08:42:49 - Login failed for username: invalid@email.com
+2025-03-15 08:42:50 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-15 08:42:51 - Login successful for username: automate.cheq@yopmail.com
+2025-03-15 08:42:52 - Browser closed and WebDriver session ended.
