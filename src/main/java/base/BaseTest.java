@@ -10,10 +10,12 @@ import java.time.Duration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static java.lang.Thread.sleep;
+
 public class BaseTest
 {
     protected static WebDriver driver;
-    private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
+    public static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
 
     @BeforeSuite
     public void setup()
@@ -30,8 +32,7 @@ public class BaseTest
     }
 
     @AfterSuite
-    public void teardown()
-    {
+    public void teardown() throws InterruptedException {
 
         if (driver != null)
         {

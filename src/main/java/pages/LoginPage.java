@@ -28,7 +28,7 @@ public class LoginPage {
 
     public void enterEmail(String email)
     {
-        System.out.println("emaaaaaail: "+email);
+
         WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(emailField));
         emailInput.clear();
         emailInput.sendKeys(email);
@@ -36,7 +36,7 @@ public class LoginPage {
 
     public void enterPassword(String password)
     {
-        System.out.println("passsssss: "+password);
+
         WebElement passInput=wait.until(ExpectedConditions.visibilityOfElementLocated(passwordField));
         passInput.clear();
         passInput.sendKeys(password);

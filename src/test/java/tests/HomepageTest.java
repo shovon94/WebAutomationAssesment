@@ -12,7 +12,6 @@ public class HomepageTest extends BaseTest {
         HomePage homePage= new HomePage(driver);
         String actualTitle=homePage.getTitle();
         String expectedTitle="Cantaloupe";
-        System.out.println("Title: " +actualTitle);
         Assert.assertEquals(actualTitle,expectedTitle,"WebTitle doesn't Match");
     }
 }

@@ -15,7 +15,7 @@ import org.testng.ITestResult;
 import java.io.File;
 import java.io.IOException;
 
-public class ExtentReporter implements ITestListener {
+public class ExtentReporter_bak implements ITestListener {
     private ExtentReports extent;
     private ExtentTest test;
 
@@ -29,7 +29,7 @@ public class ExtentReporter implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-        // Check if the test has parameters
+        // Check if the test has parameters (for tests like HomePageTest)
         Object[] parameters = result.getParameters();
         if (parameters.length > 0) {
             // If parameters exist, get test description from the first parameter
@@ -64,6 +64,42 @@ public class ExtentReporter implements ITestListener {
             test.info("Actual Result: " + actualResult);
         }
     }
+
+//    @Override
+//    public void onTestFailure(ITestResult result) {
+//        if (test != null) {
+//            // Capture screenshot and add to the report on failure
+//            WebDriver driver = ((BaseTest) result.getInstance()).getDriver(); // Get WebDriver instance
+//            String screenshotPath = captureScreenshot(driver, result.getMethod().getMethodName());  // Capture the screenshot
+//
+//            try {
+//                // Attach screenshot to failure report using relative path
+//                // Ensure the screenshot path is relative to the report location
+//                //String relativePath = screenshotPath;  // Ensure it's relative to the report directory
+//                System.out.println(screenshotPath);
+//                test.fail("Test failed", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+//
+//                // Log Expected and Actual results correctly
+//                Object[] parameters = result.getParameters();
+//                if (parameters.length > 3) {
+//                    String expectedResult = (String) parameters[3];  // Expected result
+//                    String actualResult = "Failure";  // Failure as actual result
+//
+//                    // Check for actual failure message
+//                    String actualErrorMessage = "Unknown Error";
+//                    if (result.getThrowable() != null) {
+//                        actualErrorMessage = result.getThrowable().getMessage();
+//                    }
+//
+//                    // Log the Expected and Actual results only once
+//                    test.info("Expected Result: " + expectedResult);
+//                    test.info("Actual Result: " + actualResult + " - " + actualErrorMessage);
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//    }
 
     @Override
     public void onTestFailure(ITestResult result) {
@@ -101,6 +137,10 @@ public class ExtentReporter implements ITestListener {
             }
         }
     }
+
+
+
+
 
     @Override
     public void onTestSkipped(ITestResult result) {
