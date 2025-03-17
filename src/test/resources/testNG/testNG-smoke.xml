@@ -3,13 +3,15 @@
     <listeners>
         <listener class-name="utils.ExtentReporter"/>  <!-- Register the listener here -->
     </listeners>
-    <test name="HomePage Test">
+    <test name="Tests">
         <classes>
             <class name="tests.HomepageTest"/>
             <class name="tests.LoginTest"/>
             <class name="tests.EventTest"/>
             <class name="tests.SuiteSelectionTest"/>
             <class name="tests.SuitePreferenceSaveTest"/>
+            <class name="tests.SuitePartnerTest"/>
+            <class name="tests.OrderPageTest"/>
 
         </classes>
     </test>
