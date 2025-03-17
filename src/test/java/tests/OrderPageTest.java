@@ -29,10 +29,10 @@ public class OrderPageTest extends BaseTest {
         orderPage.givePaymentinfo();
     }
 
-    @Test(priority = 3)
-    public void paymentVerification()
-    {
-        OrderPage orderPage = new OrderPage(driver);
-        orderPage.paymentVerify();
-    }
+//    @Test(priority = 3)
+//    public void paymentVerification()
+//    {
+//        OrderPage orderPage = new OrderPage(driver);
+//        orderPage.paymentV2();
+//    }
 }

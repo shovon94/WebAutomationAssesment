@@ -2029,3 +2029,283 @@ java.net.SocketException: Connection reset
 2025-03-17 06:27:13 - Starting testEventSelection for date: 17
 2025-03-17 06:27:15 - Event selected: Automation Horizon and redirected to Suite Selection Page
 2025-03-17 06:28:12 - Browser closed and WebDriver session ended.
+2025-03-17 07:12:00 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 07:12:01 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 07:12:02 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 07:12:02 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 07:12:15 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 07:12:17 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 07:12:19 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 07:12:19 - Starting testEventSelection for date: 17
+2025-03-17 07:12:22 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 07:13:41 - Browser closed and WebDriver session ended.
+2025-03-17 09:36:02 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 09:36:03 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 09:36:06 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 09:36:06 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 09:36:27 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 09:36:28 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 09:36:30 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 09:36:30 - Starting testEventSelection for date: 17
+2025-03-17 09:36:33 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 09:38:38 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 09:38:38 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 09:38:39 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 09:38:39 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 09:38:50 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 09:38:52 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 09:38:54 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 09:38:54 - Starting testEventSelection for date: 17
+2025-03-17 09:38:56 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 09:40:18 - Browser closed and WebDriver session ended.
+2025-03-17 09:42:55 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 09:42:55 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 09:42:56 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 09:42:56 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 09:43:08 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 09:43:10 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 09:43:12 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 09:43:12 - Starting testEventSelection for date: 17
+2025-03-17 09:43:17 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 09:44:38 - Browser closed and WebDriver session ended.
+2025-03-17 10:23:03 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 10:23:03 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 10:23:04 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 10:23:04 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 10:23:16 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 10:23:17 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 10:23:20 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 10:23:20 - Starting testEventSelection for date: 17
+2025-03-17 10:23:23 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 10:25:20 - Browser closed and WebDriver session ended.
+2025-03-17 10:25:38 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 10:25:39 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 10:25:40 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 10:25:40 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 10:25:50 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 10:25:51 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 10:25:53 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 10:25:53 - Starting testEventSelection for date: 17
+2025-03-17 10:25:56 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 10:27:20 - Browser closed and WebDriver session ended.
+2025-03-17 11:04:11 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 11:04:12 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 11:04:15 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:04:15 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:04:26 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:04:27 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:04:30 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:04:30 - Starting testEventSelection for date: 17
+2025-03-17 11:04:33 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 11:05:58 - Browser closed and WebDriver session ended.
+2025-03-17 11:20:19 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 11:20:19 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 11:20:19 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:20:19 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:20:41 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:20:42 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:20:44 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:20:44 - Starting testEventSelection for date: 17
+2025-03-17 11:20:48 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 11:21:22 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 11:21:22 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 11:21:23 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:21:23 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:21:37 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:21:38 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:21:40 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:21:40 - Starting testEventSelection for date: 17
+2025-03-17 11:21:43 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 11:22:45 - Browser closed and WebDriver session ended.
+2025-03-17 11:25:28 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 11:25:28 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 11:25:29 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:25:29 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:25:43 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:25:45 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:25:55 - Starting testEventSelection for date: 17
+2025-03-17 11:26:23 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 11:26:23 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 11:26:24 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:26:24 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:26:46 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:26:48 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:26:51 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:26:51 - Starting testEventSelection for date: 17
+2025-03-17 11:26:53 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 11:27:53 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 11:27:54 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 11:27:55 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:27:55 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:28:06 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:28:08 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:28:10 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:28:10 - Starting testEventSelection for date: 17
+2025-03-17 11:28:13 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 11:29:26 - Browser closed and WebDriver session ended.
+2025-03-17 11:39:25 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:39:25 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:39:37 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:39:39 - Starting testEventSelection for date: 17
+2025-03-17 11:39:49 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:39:54 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:54:32 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:54:32 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:54:44 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:54:45 - Starting testEventSelection for date: 17
+2025-03-17 11:54:56 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:54:58 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:56:27 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 11:56:28 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 11:56:29 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 11:56:29 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 11:56:29 - Browser closed and WebDriver session ended.
+2025-03-17 11:56:52 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 11:56:53 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 11:56:55 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 11:56:55 - Starting testEventSelection for date: 17
+2025-03-17 11:56:57 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 11:58:09 - Browser closed and WebDriver session ended.
+2025-03-17 12:00:47 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 12:00:47 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 12:01:07 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 12:01:08 - Starting testEventSelection for date: 17
+2025-03-17 12:01:19 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 12:01:23 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 12:02:40 - Browser closed and WebDriver session ended.
+2025-03-17 12:10:45 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 12:10:45 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 12:10:55 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 12:10:57 - Starting testEventSelection for date: 17
+2025-03-17 12:11:07 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 12:11:12 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 12:13:05 - Browser closed and WebDriver session ended.
+2025-03-17 12:15:45 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 12:15:45 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 12:15:57 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 12:15:58 - Starting testEventSelection for date: 17
+2025-03-17 12:16:08 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 12:16:10 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 12:17:30 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 12:17:30 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 12:17:43 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 12:17:44 - Starting testEventSelection for date: 17
+2025-03-17 12:17:54 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 12:17:57 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 12:19:50 - Browser closed and WebDriver session ended.
+2025-03-17 12:30:54 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 12:30:55 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 12:30:56 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 12:31:06 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 12:31:08 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 12:31:11 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 12:31:11 - Starting testEventSelection for date: 17
+2025-03-17 12:31:14 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 12:32:30 - Browser closed and WebDriver session ended.
+2025-03-17 13:51:51 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 13:51:52 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 13:51:55 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 13:51:55 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 13:52:06 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 13:52:07 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 13:52:10 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 13:52:10 - Starting testEventSelection for date: 17
+2025-03-17 13:52:37 - Event selected: Automation Horizon and redirected to Suite Selection Page
+2025-03-17 13:54:15 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 13:54:15 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 13:54:16 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 13:54:16 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 13:54:29 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 13:54:31 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 13:54:33 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 13:54:33 - Starting testEventSelection for date: 18
+2025-03-17 13:54:35 - Event selected: eid event and redirected to Suite Selection Page
+2025-03-17 13:55:41 - Browser closed and WebDriver session ended.
+2025-03-17 13:57:02 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 13:57:03 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 13:57:04 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 13:57:04 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 13:57:16 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 13:57:18 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 13:57:20 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 13:57:20 - Starting testEventSelection for date: 18
+2025-03-17 13:57:22 - Event selected: eid event and redirected to Suite Selection Page
+2025-03-17 13:58:23 - Browser closed and WebDriver session ended.
+2025-03-17 14:05:05 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 14:05:06 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 14:05:07 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 14:05:07 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 14:05:19 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 14:05:21 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 14:05:24 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 14:05:24 - Starting testEventSelection for date: 18
+2025-03-17 14:05:26 - Event selected: eid event and redirected to Suite Selection Page
+2025-03-17 14:06:46 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 14:06:47 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 14:06:48 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 14:06:48 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 14:07:00 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 14:07:02 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 14:07:05 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 14:07:05 - Starting testEventSelection for date: 18
+2025-03-17 14:07:07 - Event selected: eid event and redirected to Suite Selection Page
+2025-03-17 14:08:27 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 14:08:28 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 14:08:28 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 14:08:29 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 14:08:50 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 14:08:52 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 14:08:54 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 14:08:54 - Starting testEventSelection for date: 18
+2025-03-17 14:08:56 - Event selected: eid event and redirected to Suite Selection Page
+2025-03-17 14:10:53 - Browser closed and WebDriver session ended.
+2025-03-17 14:12:58 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-17 14:12:59 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-17 14:13:00 - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-17 14:13:00 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-17 14:13:11 - WebDriver initialized, browser maximized and website is launched!
+2025-03-17 14:13:13 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-17 14:13:15 - Login successful for username: automate.cheq@yopmail.com
+2025-03-17 14:13:15 - Starting testEventSelection for date: 18
+2025-03-17 14:13:17 - Event selected: eid event and redirected to Suite Selection Page
+2025-03-17 14:14:20 - Browser closed and WebDriver session ended.

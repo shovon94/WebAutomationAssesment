@@ -12,6 +12,16 @@
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <restassured.version>5.2.0</restassured.version>
+        <jackson.version>2.15.0</jackson.version>
+        <testng.version>7.11.0</testng.version>
+        <surefire.version>3.0.0-M7</surefire.version>
+        <extendedreport.version>5.1.2</extendedreport.version>
+
+
     </properties>
 
     <dependencies>
@@ -77,6 +87,48 @@
 
     </dependencies>
 
+
+
+    <build>
+        <plugins>
+            <!-- Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+
+            <!-- Maven Surefire Plugin for running tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire.version}</version>
+                <configuration>
+                    <includes>
+                        <include>**/*Test.java</include>
+                        <parallel>none</parallel> <!-- Disable parallel execution -->
+                    </includes>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testNG/testNG-smoke.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+
+
+        <testResources>
+            <testResource>
+                <directory>src/test/resources/testData</directory>  <!-- Adjust this path if needed -->
+                <includes>
+                    <include>TestData_v2.xlsx</include> <!-- Include your Excel file -->
+                </includes>
+            </testResource>
+        </testResources>
+    </build>
 
 
 

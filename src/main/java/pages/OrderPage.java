@@ -1,9 +1,6 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,7 +18,8 @@ public class OrderPage {
 
     // Locator for the "My Order" header to verify the order page
     By orderPageHeader = By.xpath("//h1[normalize-space()='My Order']");
-   // Method to verify if the Order page is displayed by checking the header text
+
+    // Method to verify if the Order page is displayed by checking the header text
     public boolean isOrderPageDisplayed() {
         try {
             WebElement header = wait.until(ExpectedConditions.visibilityOfElementLocated(orderPageHeader));
@@ -54,10 +52,10 @@ public class OrderPage {
 
     public void givePaymentinfo() {
 //         Locator for the iframe by its src URL or other unique identifiers (You can customize this based on your page)
-        By iframeLocator = By.xpath("//iframe[contains(@src, 'pay.google.com')]");
+        //By iframeLocator = By.xpath("//iframe[contains(@src, 'pay.google.com')]");
 
         try {
-             //Wait for the iframe to be visible and then switch to it
+            //Wait for the iframe to be visible and then switch to it
 //            WebElement iframeElement = wait.until(ExpectedConditions.visibilityOfElementLocated(iframeLocator));
 //            driver.switchTo().frame(iframeElement); // Switch to the iframe
 
@@ -86,23 +84,31 @@ public class OrderPage {
             //iframe [@title='Iframe for secured card number']
 
             By iframeLocatorCard = By.xpath("//iframe [@title='Iframe for secured card number']");
-            WebElement iframeElementCard = wait.until(ExpectedConditions.elementToBeClickable(iframeLocatorCard));
+//            WebElement iframeElementCard = wait.until(ExpectedConditions.elementToBeClickable(iframeLocatorCard));
+            WebElement iframeElementCard1 = driver.findElement(iframeLocatorCard);
 
-                   // driver.findElement(iframeLocatorCard);
+
+            Thread.sleep(10000);
+            ((JavascriptExecutor) driver).executeScript("document.evaluate(\"//input[@id='adyen-checkout-encryptedCardNumber-1742184853033']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.disabled = false;");
+
+
             //driver.switchTo().frame(iframeElementCard);
 
             // Switch to the iframe containing the payment form
-            //driver.switchTo().frame(4); // Replace index as per your iframe position
+
 
             // Card number input - Wait until the element is clickable
-           // WebElement cardNumberInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='adyen-checkout-encryptedCardNumber-1742167670135']")));
-            iframeElementCard.click();
-            iframeElementCard.clear();
-            iframeElementCard.sendKeys("6543278934517895");
+//            WebElement cardNumberInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='adyen-checkout-encryptedCardNumber-1742167670135']")));
+//            WebElement cardNumberInput = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".adyen-checkout__input.adyen-checkout__input--large.adyen-checkout__card__cardNumber__input.CardInput-module_adyen-checkout__input__11tlB")));
+            WebElement cardNumberInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='adyen-checkout-encryptedCardNumber-1742184853033']")));
+//            iframeElementCard.click();
+//            iframeElementCard.clear();
+//            iframeElementCard.sendKeys("6543278934517895");
 
-//            cardNumberInput.click();
-//            cardNumberInput.clear();
-//            cardNumberInput.sendKeys("4444444444444444");
+
+            cardNumberInput.click();
+            cardNumberInput.clear();
+            cardNumberInput.sendKeys("4444444444444444");
 
             // Expiry date input - Wait until the element is clickable
             WebElement expiryDateInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='adyen-checkout-encryptedExpiryDate-1742167670136']")));
@@ -127,11 +133,19 @@ public class OrderPage {
 
             // Switch back to the main content (parent frame)
             driver.switchTo().defaultContent();
-        } catch (NoSuchElementException e) {
+        } catch (NoSuchElementException | InterruptedException e) {
             System.out.println("Error: Element not found or issue with iframe navigation: " + e.getMessage());
         }
     }
 
+
+    public void paymentV2(){
+        driver.findElement(By.xpath("//iframe [@title='Iframe for secured card number']")).click();
+        driver.findElement(By.xpath("//iframe [@title='Iframe for secured card number']")).sendKeys("370000000000002");
+//        driver.findElement(By.xpath("//input[@aria-label='Expiry date']")).click();
+//        driver.findElement(By.xpath("//input[@aria-label='Expiry date']")).sendKeys("0330");
+
+    }
 
 
 }
