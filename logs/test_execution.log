@@ -2654,3 +2654,26 @@ java.net.SocketException: Connection reset
 2025-03-19 13:09:37 - Login successful for username: automate.cheq@yopmail.com
 2025-03-19 13:09:37 - Starting testEventSelection for date: 21
 2025-03-19 13:09:39 - Event selected: sony proibar and redirected to Suite Selection Page
+2025-03-20 03:21:44 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-20 03:21:45 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-20 03:21:45 - Using chromedriver 134.0.6998.90 (resolved driver for Chrome 134)
+2025-03-20 03:21:45 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.90\chromedriver.exe
+2025-03-20 03:22:08 - WebDriver initialized, browser maximized and website is launched!
+2025-03-20 03:22:09 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-20 03:22:11 - Login successful for username: automate.cheq@yopmail.com
+2025-03-20 03:22:11 - Starting testEventSelection for date: 21
+2025-03-20 03:22:13 - Event selected: sony proibar and redirected to Suite Selection Page
+2025-03-20 03:23:26 - Browser closed and WebDriver session ended.
+2025-03-20 03:24:38 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-20 03:24:38 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-20 03:24:39 - Using chromedriver 134.0.6998.90 (resolved driver for Chrome 134)
+2025-03-20 03:24:39 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.90\chromedriver.exe
+2025-03-20 03:24:53 - WebDriver initialized, browser maximized and website is launched!
+2025-03-20 03:24:53 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-20 03:24:55 - Login successful for username: automate.cheq@yopmail.com
+2025-03-20 03:24:55 - Starting testEventSelection for date: 21
+2025-03-20 03:24:59 - Event selected: sony proibar and redirected to Suite Selection Page

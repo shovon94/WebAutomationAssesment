@@ -197,7 +197,7 @@ public class OrderPage {
         // Name
 
         WebElement cardHolderName = driver.findElement(By.cssSelector(".adyen-checkout__input-wrapper input"));
-        cardHolderName.sendKeys("Sazzad");
+        cardHolderName.sendKeys("CHEQ by Cantaloupe");
         System.out.println("Name Inserted");
         Thread.sleep(5000);
 
@@ -205,6 +205,7 @@ public class OrderPage {
         WebElement button = driver.findElement(By.cssSelector(".adyen-checkout__button.adyen-checkout__button--pay"));
         button.click();
         System.out.println("Button Clicked successfully");
+        Thread.sleep(10000);
 
 
     }
