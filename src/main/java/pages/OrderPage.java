@@ -142,6 +142,7 @@ public class OrderPage {
     public void paymentV2(){
         driver.findElement(By.xpath("//iframe [@title='Iframe for secured card number']")).click();
         driver.findElement(By.xpath("//iframe [@title='Iframe for secured card number']")).sendKeys("370000000000002");
+        System.out.println("Key Send!");
 //        driver.findElement(By.xpath("//input[@aria-label='Expiry date']")).click();
 //        driver.findElement(By.xpath("//input[@aria-label='Expiry date']")).sendKeys("0330");
 
