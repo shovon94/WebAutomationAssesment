@@ -29,10 +29,9 @@ public class OrderPageTest extends BaseTest {
         orderPage.givePaymentinfo();
     }
 
-//    @Test(priority = 3)
-//    public void paymentVerification()
-//    {
-//        OrderPage orderPage = new OrderPage(driver);
-//        orderPage.paymentV2();
-//    }
+    @Test(priority = 3)
+    public void paymentVerification() throws InterruptedException {
+        OrderPage orderPage = new OrderPage(driver);
+        orderPage.paymentV2();
+    }
 }

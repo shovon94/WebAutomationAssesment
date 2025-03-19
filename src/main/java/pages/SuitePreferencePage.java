@@ -18,7 +18,8 @@ public class SuitePreferencePage {
     }
 
     // Locator for the Save button
-    By saveButton = By.xpath("//button[normalize-space()='Save']");
+//    By saveButton = By.xpath("//button[normalize-space()='Save']");
+    By saveButton = By.cssSelector("button[type='submit']");
 
     // Method to click the Save button
     public void clickSave() {

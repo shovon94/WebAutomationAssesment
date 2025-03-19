@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -60,13 +61,19 @@ public class SuiteSelectionPage {
             System.out.println("Using XPath: " + continueButtonXPath);
 
             // Wait for the Continue button to become clickable
-            WebElement continueBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(continueButtonXPath)));
+//            WebElement continueBtn = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".jss1630.jss1684.jss1631 button .MuiTouchRipple-root.css-w0pj6f")));
+            WebElement continueBtn = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div[class='jss1630 jss1770 jss1631'] button[type='button']")));
 
             // Log that the Continue button is found and clickable
             System.out.println("Continue button is clickable, proceeding with click...");
 
             // Click the Continue button
-            continueBtn.click();
+//            continueBtn.click();
+
+
+
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click();", continueBtn);  // Trigger the click event
 
             // Log that the button was clicked
             System.out.println("Continue button clicked.");
@@ -151,7 +158,9 @@ public class SuiteSelectionPage {
     // Method to click on Continue button in "Place an order?" popup
     public void clickContinueForPlaceOrder() {
         try {
-            WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[@type='button'][normalize-space()='Continue'])[2]")));
+//            WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[@type='button'][normalize-space()='Continue'])[2]")));
+//            WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".jss1630.jss1652.jss1631 button")));
+            WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".jss1689.MuiBox-root.css-0 button .MuiTouchRipple-root.css-w0pj6f")));
             continueButton.click();
             System.out.println("Continue button for Place an order? clicked.");
         } catch (Exception e) {

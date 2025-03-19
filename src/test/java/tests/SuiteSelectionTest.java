@@ -16,7 +16,7 @@ public class SuiteSelectionTest extends BaseTest {
         Assert.assertTrue(suiteSelectionPage.isSuiteSelectionPageDisplayed(), "Suite Selection page not displayed");
 
         // Select a suite (for example, 'South')
-        suiteSelectionPage.selectSuite("South");
+        suiteSelectionPage.selectSuite("North");
 
         // Click Continue
         suiteSelectionPage.clickContinue();

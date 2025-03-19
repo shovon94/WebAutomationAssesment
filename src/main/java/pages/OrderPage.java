@@ -5,6 +5,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 public class OrderPage {
     WebDriver driver;
@@ -139,11 +140,72 @@ public class OrderPage {
     }
 
 
-    public void paymentV2(){
-        driver.findElement(By.xpath("//iframe [@title='Iframe for secured card number']")).click();
-        driver.findElement(By.xpath("//iframe [@title='Iframe for secured card number']")).sendKeys("370000000000002");
-//        driver.findElement(By.xpath("//input[@aria-label='Expiry date']")).click();
-//        driver.findElement(By.xpath("//input[@aria-label='Expiry date']")).sendKeys("0330");
+    public void paymentV2() throws InterruptedException {
+        // Switch to the iframe
+
+        List<WebElement> iframes = driver.findElements(By.cssSelector(".adyen-checkout__card__form .adyen-checkout__input-wrapper .js-iframe"));
+
+// Access the first iframe (index 0)
+        WebElement cardNumber = iframes.get(0);
+        System.out.println(" On first iframe");
+
+// Now you can switch to the first iframe
+        driver.switchTo().frame(cardNumber);
+        System.out.println("switch successful card number");
+
+        WebElement cardInput = driver.findElement(By.id("shiftTabField"));
+        System.out.println("input field found");
+        cardInput.sendKeys("4512567889327584");
+        System.out.println(" card number inserted successfully");
+//        Thread.sleep(10000);
+
+        driver.switchTo().defaultContent();
+        System.out.println("Switch to default from Card Number");
+
+        //Expiry
+
+        iframes = driver.findElements(By.cssSelector(".adyen-checkout__card__form .adyen-checkout__input-wrapper .js-iframe"));
+        // Access the second iframe (index 1)
+        WebElement expiry = iframes.get(1);
+        System.out.println(" On Second iframe");
+        driver.switchTo().frame(expiry);
+        System.out.println("switch successful to expiry");
+        WebElement expiryInput = driver.findElement(By.id("shiftTabField"));
+        System.out.println(" Expiry input field found");
+        expiryInput.sendKeys("0330");
+        System.out.println(" Expiry inserted successfully");
+//        Thread.sleep(10000);
+        driver.switchTo().defaultContent();
+        System.out.println("Switch to default from Expiry");
+
+        //CVV
+
+        iframes = driver.findElements(By.cssSelector(".adyen-checkout__card__form .adyen-checkout__input-wrapper .js-iframe"));
+        // Access the third iframe (index 2)
+        WebElement cvv = iframes.get(2);
+        System.out.println(" On Third iframe");
+        driver.switchTo().frame(cvv);
+        System.out.println("switch successful to cvv");
+        WebElement cvvInput = driver.findElement(By.id("shiftTabField"));
+        System.out.println(" cvv input field found");
+        cvvInput.sendKeys("7373");
+        System.out.println(" cvv inserted successfully");
+//        Thread.sleep(10000);
+        driver.switchTo().defaultContent();
+        System.out.println("Switch to default from CVC");
+
+        // Name
+
+        WebElement cardHolderName = driver.findElement(By.cssSelector(".adyen-checkout__input-wrapper input"));
+        cardHolderName.sendKeys("Sazzad");
+        System.out.println("Name Inserted");
+        Thread.sleep(5000);
+
+        // Click Button
+        WebElement button = driver.findElement(By.cssSelector(".adyen-checkout__button.adyen-checkout__button--pay"));
+        button.click();
+        System.out.println("Button Clicked successfully");
+
 
     }
 
