@@ -2711,3 +2711,15 @@ java.net.SocketException: Connection reset
 2025-03-20 14:46:31 - Starting testEventSelection for date: 21
 2025-03-20 14:46:33 - Event selected: sony proibar and redirected to Suite Selection Page
 2025-03-20 14:47:43 - Browser closed and WebDriver session ended.
+2025-03-20 15:01:27 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-20 15:01:27 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-20 15:01:28 - Using chromedriver 134.0.6998.90 (resolved driver for Chrome 134)
+2025-03-20 15:01:28 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.90\chromedriver.exe
+2025-03-20 15:01:38 - WebDriver initialized, browser maximized and website is launched!
+2025-03-20 15:01:40 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-20 15:01:42 - Login successful for username: automate.cheq@yopmail.com
+2025-03-20 15:01:42 - Starting testEventSelection for date: 21
+2025-03-20 15:01:44 - Event selected: sony proibar and redirected to Suite Selection Page
+2025-03-20 15:02:53 - Browser closed and WebDriver session ended.
