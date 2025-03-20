@@ -155,7 +155,7 @@ public class OrderPage {
 
         WebElement cardInput = driver.findElement(By.id("shiftTabField"));
         System.out.println("input field found");
-        cardInput.sendKeys("4512567889327584");
+        cardInput.sendKeys("370000000000002");
         System.out.println(" card number inserted successfully");
 //        Thread.sleep(10000);
 

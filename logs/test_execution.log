@@ -2688,3 +2688,26 @@ java.net.SocketException: Connection reset
 2025-03-20 03:38:15 - Login successful for username: automate.cheq@yopmail.com
 2025-03-20 03:38:15 - Starting testEventSelection for date: 21
 2025-03-20 03:38:17 - Event selected: sony proibar and redirected to Suite Selection Page
+2025-03-20 14:44:34 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-20 14:44:35 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-20 14:44:36 - Using chromedriver 134.0.6998.90 (resolved driver for Chrome 134)
+2025-03-20 14:44:36 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.90\chromedriver.exe
+2025-03-20 14:44:44 - WebDriver initialized, browser maximized and website is launched!
+2025-03-20 14:44:46 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-20 14:44:48 - Login successful for username: automate.cheq@yopmail.com
+2025-03-20 14:44:48 - Starting testEventSelection for date: 21
+2025-03-20 14:44:50 - Event selected: sony proibar and redirected to Suite Selection Page
+2025-03-20 14:46:16 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-03-20 14:46:17 - [TestNG] Running:
+  E:\git_Repo\WebAutomationAssesment\src\test\resources\testNG\testNG-smoke.xml
+
+2025-03-20 14:46:17 - Using chromedriver 134.0.6998.90 (resolved driver for Chrome 134)
+2025-03-20 14:46:17 - Exporting webdriver.chrome.driver as C:\Users\samiul.haque\.cache\selenium\chromedriver\win64\134.0.6998.90\chromedriver.exe
+2025-03-20 14:46:27 - WebDriver initialized, browser maximized and website is launched!
+2025-03-20 14:46:29 - Starting testLogin with username: automate.cheq@yopmail.com
+2025-03-20 14:46:31 - Login successful for username: automate.cheq@yopmail.com
+2025-03-20 14:46:31 - Starting testEventSelection for date: 21
+2025-03-20 14:46:33 - Event selected: sony proibar and redirected to Suite Selection Page
+2025-03-20 14:47:43 - Browser closed and WebDriver session ended.
