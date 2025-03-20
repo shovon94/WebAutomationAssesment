@@ -205,7 +205,7 @@ public class OrderPage {
         WebElement button = driver.findElement(By.cssSelector(".adyen-checkout__button.adyen-checkout__button--pay"));
         button.click();
         System.out.println("Button Clicked successfully");
-        Thread.sleep(8000);
+        Thread.sleep(5000);
 
 
     }
